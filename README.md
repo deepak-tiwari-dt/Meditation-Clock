@@ -4,4 +4,4 @@
 
 ### [Meditation](https://meditation-clock.netlify.app/)
 
-![Meditation](../../react-code-167/my-react-app/src/assets/meditation.png)
+![Meditation](/my-react-app/meditation.png)
