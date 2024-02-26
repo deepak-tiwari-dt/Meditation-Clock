@@ -2,21 +2,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(112, 224, 48);
+  background-color: white;
   padding: 40px;
   width: 20rem;
-  height: 20rem;
-  margin-left: 550px;
-  margin-top: 200px;
+  height: 24rem;
   border-radius: 10px;
+  box-shadow: 25px 25px 45px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 
 #title {
   font-size: 3rem;
 }
 
+.musicIcon {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
 .exercise {
-  color: white;
+  color: #1f2937;
   line-height: 3;
 }
 
@@ -28,7 +34,9 @@
 }
 
 .timerText {
-  font-size: 30px;
+  font-size: 50px;
+  min-width: 40px;
+  text-align: center;
 }
 
 .insideButtons {
@@ -36,4 +44,41 @@
   gap: 10px;
   cursor: pointer;
   font-size: 30px;
+}
+
+.caretButtonsElements {
+  display: flex;
+  align-items: center;
+}
+
+.caretButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.caretUp {
+  width: 30px;
+  height: 20px;
+  margin-bottom: -10px;
+}
+
+.caretDown {
+  width: 30px;
+  height: 20px;
+}
+
+.colonText {
+  font-size: 30px;
+  margin-bottom: 2px;
+}
+
+.stopButton {
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.playPauseButton {
+  width: 80px;
+  height: 80px;
 }
